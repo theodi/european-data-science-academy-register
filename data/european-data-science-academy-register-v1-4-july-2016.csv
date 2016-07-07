@@ -1,0 +1,154 @@
+Data set reference and name,,,,,,Data set description ,,,,,Standards,,,Data sharing,,,,,,,,,Archiving and preservation ,,,,
+Work Package,Organisation,Dataset Title,Dataset Identifier,"Status - July 2016 (ongoing, in progress, due date)",New entry to data management plan since M6? Yes/No,Generated or collected,Origin,Scale,Who is this useful for?,Similar existing dataset and possibility for integration? Value of this new dataset?,What standards and methodologies will be utilised for data collection and management?,"Outline the metadata, documentation or other supporting material that should accompany the data for it to be interpreted correctly","Status and location of metadata, documentation or other supporting material","Licensing, data protection, ownership and copyright",Can the data be published under an open licence?,"
+If the data cannot be published openly, why?
+","How will the data be shared? (including access procedures, dissemination, software/tools needed for enabling reuse ",Which repository will be used for the data? Why this respository?,Is it ready to be published?,Current location of dataset,Dataset Link,Licence,How long should the data be preserved? How will it exceed the length of the project if necessary?,Approx end volume,Who is responsible in your organisation for the data managament and curation?,Quality assurance and back up procedures?,Associated costs and how these will be covered - do you need to purchase storage? How much time will it take for a person to manage the data - how will this be covered?
+WP1,ODI,Corpora of crawled web-based adverts from LinkedIn,WebSiteHarvest,Finished,No,Collected ,LinkedIn,"46 terms, 31 languages, 47 countries, 1 harvest per day, 2162 data points per day
+",Internal demand analysis only.,"Many datasets are collected in this area, however due to the specific nature of this study, collection of new data is required and integration with existing datasets not viable.  The value of this dataset comes from the provision of an up-to-date snapshot of current data science skills needs across the EU.  ",All data collected is translated into CSV format.,"
+Data will be not available for reuse or accessible by anyone outside of the project. The data collected will be used for internal analysis to inform the creation of curriculum. 
+",Metadata is not publically available,"The terms of the LinkedIn user agreement now forbid harvesting and collection of data without express permission. When the data was collected, this was not the case.
+
+https://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag",No,"The terms of the LinkedIn user agreement forbid harvesting and collection of data without express permission.
+
+""Use manual or automated software, devices, scripts robots, other means or processes to access, “scrape,” “crawl” or “spider” the Services or any related data or information;""
+
+https://www.linkedin.com/legal/user-agreement?trk=hb_ft_userag","Data will be not shared or available for reuse
+",Using Github so that the data stays close to its usage and can be used quickly and easily.,N/A,N/A,N/A,N/A,"
+Until the end of the project
+",<1Gb,"ODI lead data management and curation, other WP1 partners will contribute","
+Backed up to an internal ODI repository 
+",Approximately 1 day person effort per month
+WP1,ODI,Aggregated statistics of European skill demand based on web-based job adverts,WebSiteStatistics,Finished,No,Collected,"Adzuna API, Trovit",Varied,"
+Populating the dashboard, internal demand analysis and to inform curriculum development. 
+","Many datasets are collected in this area, however due to the specific nature of this study, collection of new data is required and integration with existing datasets not viable.  The value of this dataset comes from the provision of an up-to-date snapshot of current data science skills needs across the EU.  ",All data collected is translated into CSV format.,"
+The Adzuna data is accessible via the Adzuna API. The Trovit data will be not available for reuse or accessible by anyone outside of the project.
+",Metadata is not publically available,"
+The data will be available for use via the EDSA dashboard However it will not be available to download as this contravenes Trovit’s terms and conditions.
+",No,"
+Trovit’s terms of use prohibit the use of their data. The research exception allows us to use the data but not to make it available in raw format for others to consume for commercial purposes.
+","
+Via the EDSA dashboard
+","
+In an internal JSI repository
+",N/A,N/A,N/A,N/A,"
+Until the end of the project
+",<1Gb,"ODI lead data management and curation, other WP1 partners will contribute","
+Backed up in an internal JSI repository
+",Approximately 1 day person effort per month
+WP1,ODI,Individual results from demand analysis,IndividualResponses,Ongoing,No,Generated ,Interviews and survey,"584 surveys, 108 interviews at present. Online survey still open.",Internal demand analysis. ,A number of surveys exist in this domain but their data is not available to this project.  This data will enable EDSA to build up a country by country view of current capacity and requirements for data science skills.,Data collection methods outlined in D1.4. Translated into CSV format.,Data will be not shared or available for reuse. The data collected will be used for internal analysis to inform the creation of curriculum. Anonymised data will be publicly available.,Metadata is not publically available,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,Data protection of personal data,Data will be not shared or available for reuse,Internal ODI repository,N/A,N/A,N/A,N/A,Until the end of the project,<100Mb,"ODI lead data management and curation, other WP1 partners will contribute",Backed up to an internal ODI respository ,Approximately 1 day effort per month
+WP1,ODI,"Summary data from surveys and interviews
+","
+DemandAnalysisSummary
+",Finished,Yes,Generated,Interviews and survey,"585 surveys, 108 interviews.","
+External analysis of respondents who took the surveys and interviews.
+",None,Data collection methods outlined in D1.4. Translated into CSV format.,A README.md file is available detailing the data structure and basic usage.,"
+https://theodi.github.io/edsa-demand-analysis-summary-data/ 
+",Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,Yes,N/A,"
+Data will be available to access from the EDSA website and the ODIs Github repository. 
+",Github/ EDSA  website ,Yes,"https://theodi.github.io/edsa-demand-analysis-summary-data/ 
+","https://theodi.github.io/edsa-demand-analysis-summary-data/ 
+",Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,As long as Github exists as a minimum. Beyond that a value judgement would have to be made.,<100Mb,"ODI lead data management and curation, other WP1 partners will contribute","
+Stored in external repositories - EDSA website and Github
+",Github free and public
+WP1,ODI,"De-identified survey responses from demand analysis
+",DeidentifiedResponses,Ongoing,No,Generated,Survey,"496 survey results
+",External analysis of results and trends by anyone who wishes to gather survey data in the area of data science,There are a number of other surveys that have been aggregated that we can compare our result too and use these results if necessary. This dataset has the same eventual value to others in the area,Data collection methods outlined in D1.4. Translated into CSV format.,A README.md file is available detailing the data structure and basic usage.,http://davetaz.github.io/quantitative-data-from-edsa-demand-analysis-/,Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,Yes,N/A,Data will be available to view on the EDSA dashboard and accessible for free in the EDSA dashboard Github repository. ,Github/ EDSA Dashboard on website ,Yes,Github/ EDSA Dashboard on website ,http://davetaz.github.io/quantitative-data-from-edsa-demand-analysis-/,Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,As long as Github exists as a minimum. Beyond that a value judgement would have to be made.,<100Mb,"ODI lead data management and curation, other WP1 partners will contribute","
+Stored in external repositories - EDSA website and Github
+",Github free and public
+WP1,ODI,Recordings and transcriptions of interviews,InterviewTranscipts,Finished,No,Generated,Interviews,"108 transcripts, 108 recordings",Internal demand analysis only ,No similar datasets exist that are usable for this project.  The interviews provide insights and data points for use in the demand analysis.,Qualitative research methodology for collection outlined in D1.4 ,"Data will be not available for reuse or accessible by anyone outside of the project. The data collected will be used for internal analysis to inform the creation of curriculum.
+",N/A,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,Data protection of personal data,Data will be not shared or available for reuse. The data collected will be used for internal review to inform the creation of curriculum and will only be available publically as anonymous data ,Internal ODI repository,N/A,N/A,N/A,N/A,Until the end of the project,< 3GB,"ODI lead data management and curation, other WP1 partners will contribute",Backed up to an internal ODI respository ,As part of the subcontracting costs of WP1
+WP1,ODI,ideXlab search platform results ,ExpertIdentification,Ongoing,No,Collected ,Research publications,Final scale not yet known as collection is ongoing,"
+Internal demand analysis and to inform curriculum development. Provides insights into offer side of skills analysis.
+","
+Not in this area.  This dataset will provide validation of the demand analysis and form the basis for further insights.
+","
+The ideXlab search engine will use the sampling approach outlined in D1.2. for data collection. CSV data will be created 
+","
+Data will be not available for reuse or accessible by anyone outside of the project. The data collected will be used for internal analysis to inform the creation of curriculum. 
+","Accompanying document to explain data structure. This will not be made open.
+",Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,Data protection of personal data,"
+The data will not be shared due to restrictions on the use of personal data.
+",ideXlab search platform,N/A,N/A,N/A,N/A,Until the end of the project,Est. 1000 returns ,"
+ideXlab lead data management and curation, other WP1 partners will contribute
+",Backed up to an internal ideXlab respository,Approx 2 person days per month. No other external costs 
+WP2,ODI,Related course data regarding similar modules and training offerings across the EU,DataScienceCourses,Finished,No,Collected,Course websites,600 KB,Internal use for development of curricula and learning materials. External use for identfying useful courses ,None.  The data will provide a useful resource for those wishing to understand what courses are available.,"Systematic search and review of available data science courses. The search terms were Data Science, Big Data, Data Analytics, Business Analytics, Machine Learning, Distributed Computing, Advanced Computing Data Science Stream, Data Analytics stream.
+","
+Metadata has been published alongside the data
+",https://theodi.github.io/data-science-courses-in-europe-2016/,"
+The data is licensed under a Creative Commons CC-BY 4.0 licence
+",Yes,N/A,"
+GitHub/EDSA website
+","Github, EDSA website",Yes,https://theodi.github.io/data-science-courses-in-europe-2016/,https://theodi.github.io/data-science-courses-in-europe-2016/,Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,Until the end of the project,< 1GB,ODI lead data management and curation,"
+Backed up to an internal ODI repository 
+",0.5 days per month
+WP2,Persontyle,Datasets for course examples and exercises,"Using namespace notation to specify R packages: sml::poly4, sml::poly4b, sml::kmeans, sml::seeds, car::Duncan, car::Davis, datasets::car, datasets::HairEyeColor, datasets::Airquality, datasets::swiss, bestGLM::zprostate, MASS::menarche",Finished,Yes,Both,Various - many from third party R packages students download from CRAN. Some in an author developed package.,12 small datasets. <1MB,"Students in the ""Essentials of Data Analytics and Machine Learning"" course.","Third party R packages students download from CRAN. Some in an author developed package hosted on CRAN
+",None,"The datasets will be used within learning activities offered as part of the ""Essentials of Data Analytics and Machine Learning"" course. They are stored in the sml R package.","Package documentation (except, currently, for those in the sml package)","GNU GPL V3, http://www.gnu.org/licenses/gpl-3.0.en.html",Yes,N/A,"
+Via R packages, searchable online.
+",CRAN,Yes,"CRAN, except for sml package which is currently available on the EDSA portal and will move to CRAN when finished.","
+https://vincentarelbundock.github.io/Rdatasets/datasets.html 
+","GNU GPL V3, http://www.gnu.org/licenses/gpl-3.0.en.html","
+As long as the owners do not remove them. If the datasets are no longer accessible, other similar datasets will be used in the module. 
+",< 1MB,"
+Persontyle lead data management and curation, third parties for collected data
+",Relying on CRAN,None
+WP2,TU/e,Event log from a municipality process,a07386a5-7be3-4367-9535-70bc9e77dbe6,Ongoing,Yes,Collected,Dutch municipality,200 KB,Users interested in real life event logs.,We have a large collection of real life event logs at http://data.3tu.nl/repository/collection:event_logs_real,Management throuh 3TU data center,"Includes number of traces, events, attributes, timespan, etc.",http://data.3tu.nl/repository/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6,Non-commercial licence,No,The data is shared and publically available for non-commercial reuse. Its non-commercial licence means it cannot be published openly.,http://data.3tu.nl/repository/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6,http://data.3tu.nl/repository/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6,Yes,http://data.3tu.nl/repository/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6,http://data.3tu.nl/repository/uuid:a07386a5-7be3-4367-9535-70bc9e77dbe6,unknown,"""
+As long as the owners do not remove them. If the datasets are no longer accessible, other similar datasets will be used in the module. 
+""",200 KB,3TU,"
+Reliant on third party. If the dataset becomes unavailable we will use a similar one in the online module.
+",none
+WP3,JSI,Repository statistics on downloads and views of educational resources,RepositoryStatistics,"Available, regularly updated",No,Collected,videolectures.net,views and comments for each videolecture,"internal analysis, curriculum development, external demand analysis","None. Provides evidence of resource usage and basis for improving curriculum, content and course structure.",CSV is used for Videolectures API,"
+Videolectures REST api documentation. An MD Readme file is available for download
+","https://github.com/innanoval/edsa-videolectures-statistics-dataset-1/tree/gh-pages/data
+","The data is licensed under a Creative Commons CC-BY 4.0 licence
+",Yes,N/A,"Available to see at videolectures website; described as part of WP3 deliverables
+",videolectures repository.  Proximity to data source.,Yes,JSI server,"
+https://github.com/innanoval/edsa-videolectures-statistics-dataset-1/tree/gh-pages/data
+",Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,the data will be available after the project ends as part of the project's learning materials,< 1GB,JSI lead data management and curation. OU contribute ,videolectures - relying on internal quality assurance & back up procedures,"Approximately 1 day per month during the project’s lifetime
+"
+WP3,OU,Learning Analytics data generated from the EDSA Online Courses portal,EDSAOnlineCoursesLA,"Ongoing. Generation of data started on 01/02/2016, together with the launch of the first EDSA self-study courses",No,Generated,http://courses.edsa-project.eu,Not yet known,Course producers can get an understanding of how their courses are being used. Learners can monitor their learning progress.,Not many Learning Analytics datasets are publicly available. The OU has recently published a similar dataset: https://analyse.kmi.open.ac.uk/open_dataset,The xAPI specification is used for expressing the data; the open source Learning Locker software is used for storing and visualising the data.,Introduction to the xAPI (or Tin Can API): https://tincanapi.com/overview/. Introduction to Learning Locker: https://learninglocker.net,"https://tincanapi.com/overview/
+https://learninglocker.net
+https://alexmikro.github.io/learning-analytics-dataset-from-the-edsa-online-courses-portal/ ","
+Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/
+",Yes,N/A,"
+Via the EDSA website / Github
+",We have setup a dedicated EDSA Learning Locker. This was chosen for the reasons outlined in https://learninglocker.net/benefits/,Yes,EDSA Learning Locker,"
+https://alexmikro.github.io/learning-analytics-dataset-from-the-edsa-online-courses-portal/
+",CC-BY ,At least until the end of project,Not yet known,OU lead data management and curation.,"Relying on the backup procedures of the OU, as the dataset is hosted on an OU server.",Server storage has already been purchased. Effort for analysing the data has been allocated in Task 3.4.
+WP3,JSI,Internal logs of elearning systems,InternalLogs,"Available, regularly updated",No,Collected,videolectures.net,"for videolectures: 20.000 videos, 17.431 lectures, 12.998 authors, 952 events, 579 categories",internal demand analysis,"None. Provides evidence of resource usage and basis for improving curriculum, content and course structure.",JSON is used for Videolectures API,Videolectures REST api documentation,N/A,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,"
+Privacy. Data requires anonymisation and/or aggregation, and at the moment the use case for anonymised data is not clear.
+","Available to see at videolectures website; described as part of WP3 deliverables
+",videolectures repository.  Proximity to data source.,N/A,JSI server,N/A,N/A,at least until the end of project,N/A,JSI lead data management and curation. OU contribute ,videolectures - relying on internal quality assurance & back up procedures,N/A
+WP3,JSI,"Statistics of course registration, participation and completion",StatisticsForCourses,"Available, regularly updated",No,Collected,videolectures.net,"for videolectures - available per videolecture, per viewer",internal demand analysis,"None. Provides basis for improving curriculum, content and course structure.",JSON is used for Videolectures API,Videolectures REST api documentation,N/A,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,Privacy. Data that does not contain privacy issues might be publishable,"Available to see at videolectures website; described as part of WP3 deliverables
+",videolectures repository.  Proximity to data source.,N/A,JSI server,N/A,N/A,at least until the end of project,< 1GB,JSI lead data management and curation. OU contribute ,videolectures - relying on internal quality assurance & back up procedures,N/A
+WP3,JSI,Aggregated statistics of engagement with the developed courses and educational resources,AggregatedStatistics,"Available, regularly updated",Np,Generated,videolectures.net,"for videolectures - available per videolecture, per viewer",internal demand analysis,"None. Provides evidence of adoption and basis for improving curriculum, content and course structure.",JSON is used for Videolectures API,Videolectures REST api documentation,N/A,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,Privacy. Data that does not contain privacy issues might be publishable,"Available to see at videolectures website; described as part of WP3 deliverables
+",videolectures repository.  Proximity to data source.,N/A,JSI server,N/A,N/A,at least until the end of project,< 1GB,JSI lead data management and curation. OU contribute ,videolectures - relying on internal quality assurance & back up procedures,N/A
+WP3,TU/e,Recorded behavior of students following the first session of the process mining MOOC,CourseraMOOCprocmin001,Ongoing,Yes,collected,coursera.org,several large tables,learning analytics within EDSA,every Coursera course has this data recorded,"
+Data collection is managed by Coursera
+","
+There is no external link to the metadata
+",N/A,Raw data is owned by TU/e and cannot be shared due to Coursera restrictions of use.,No,"
+Restrictions of use from the data provider
+",N/A,"
+The data is collected by and stored on a Coursera repository.
+",No,Coursera,N/A,N/A,N/A,around 1 GB,"Joos Buijs, Tu/e lead data management and curation",relying on coursera,N/A
+WP4,SOTON,Web server logs and Google analytics of project website access,WebsiteAnalytics,Ongoing,No,Collected,http://edsa-project.eu,1 website,Internal analysis for dissemination and community analysis. Secondary use for implicit demand analysis.,None.  Provides evidence of engagement and basis for UX improvement.,"Quantitative recording of website traffic via Google Analytics dashboard, analysed using a variety of analytic tools.","Sessions, Page views, Demographics, User Flow, Bounce rate, ",There is no external link to the metadata,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,User privacy. The data can be aggregated and published under an open license,Analysed data will be made available throughout deliverable reports in WP4.,Internal institutional Soton/OU repositories,N/A,https://analytics.google.com/,N/A,N/A,at least until the end of project,< 1GB,OU lead data management and curation. Soton contribute ,Backed up remotely,Free storage. 0.5 day per month
+WP4,SOTON,Generated social media engagement data,SocialMediaEngagements,Ongoing,No,Collected,Twitter,1 Twitter Account,Internal analysis for community strength and project dissemination. ,"None that relate to EDSA.  Provides evidence for engagement with project, effectiveness of dissemeniation activities.  Provides basis for understanding what content users find most engaging.",Regular access of data from analytics.twitter.com,"Tweets, Impressions, Profile Visits, Followers, Mentions",https://analytics.twitter.com/user/edsa_project/home,Data will be licensed in compliance with each social network's terms and conditions ,No,"Data sharing needs to comply with individual site licenses. However the majority of social networks do not permitted collection, harvesting and republication of data",Dashboard on EDSA website. Deliverable reports in WP4.,Internal institutional Soton repositories,,Data not accessible directly without tools. Required Twitter harvester. ,,,Until the end of the project,< 1GB,Soton lead data management and curation.  ,Backed up remotely,Free storage. 1 day per month
+WP5,ideXlab,"List of project exploitation results – collaborations, institutional and geographical beneficiaries,",ProjectExploitation,Ongoing,No,Generated ,Project partners,Variable,Internal analysis for results to be exploited and targets,"None.  Provides data on dissemination activity, network and results.",Report detailing results from interviews and exploitation activities,N/A,N/A,Raw data will be owned by the project and unlicensed. It will not be available for reuse.,No,Confidentiality,Deliverable reports in WP5.,Google docs shared document,N/A,,N/A,N/A,Until the end of the project,< 500MB,ideXlab lead data management curation,Backed up remotely,Free storage. 1 day per month
+WP5,ODI,The EDSA Register,EDSARegister,Ongoing,Yes,Generated,Project partners,<500KB,"
+Anyone interested in understanding the datasets used within the EDSA project. Internal management tool.
+",None,"
+Project partners update every three months until the end of the project. ODI responsible for conversion to CSV and publication as open data.
+",A README.md file is available detailing the data structure and basic usage.,https://theodi.github.io/european-data-science-academy-register/,"
+This dataset is published on Github, under a CC-BY licence.
+",Yes,N/A,"
+Via Github and via the EDSA website (http://edsa-project.eu/resources/datasets/)
+",Google docs shared document and Github,Yes,"
+https://theodi.github.io/european-data-science-academy-register/ 
+","
+https://theodi.github.io/european-data-science-academy-register/ 
+",Creative Commons Attribution (CC BY 4.0) https://creativecommons.org/licenses/by/4.0/,"
+As long as Github exists as a minimum. Beyond that a value judgement would have to be made.
+",< 500MB,"ODI lead data management and curation, other WP1 partners will contribute","
+Stored in external repositories - EDSA website and Github
+","
+Stored in external repositories - EDSA website and Github; approximately 2 days per month effort for maintenance.
+"
